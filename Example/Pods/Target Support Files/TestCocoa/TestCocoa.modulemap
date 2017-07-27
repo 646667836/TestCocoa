@@ -1,0 +1,6 @@
+framework module TestCocoa {
+  umbrella header "TestCocoa-umbrella.h"
+
+  export *
+  module * { export * }
+}

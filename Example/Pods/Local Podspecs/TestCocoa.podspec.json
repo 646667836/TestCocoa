@@ -1,0 +1,22 @@
+{
+  "name": "TestCocoa",
+  "version": "0.1.0",
+  "summary": "A short description of TestCocoa.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/646667836/TestCocoa",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "646667836": "646667836@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/646667836/TestCocoa.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TestCocoa/Classes/**/*"
+}
