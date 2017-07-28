@@ -14,8 +14,6 @@
 		7502F3CCBFA61E1B2946E2560D5D1626 /* Pods-TestCocoa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C1A338977B6DB177C55F81FFBB0AE1 /* Pods-TestCocoa_Example-dummy.m */; };
 		99CC4848773FA38A2C75EE07B15061A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9ECB603AD1406588824A2422A6626A5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C5A8D2831F2A4F9800BE67EF /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A8D27F1F2A4F9800BE67EF /* ViewController.h */; };
-		C5A8D2841F2A4F9800BE67EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A8D2801F2A4F9800BE67EF /* ViewController.m */; };
 		C5A8D2D21F2AD44300BE67EF /* Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A8D2D01F2AD44300BE67EF /* Tools.h */; };
 		C5A8D2D31F2AD44300BE67EF /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A8D2D11F2AD44300BE67EF /* Tools.m */; };
 		CD5B3013FF1D93B44835FB562CE58320 /* Pods-TestCocoa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 884FAC85A6CAF34BF860B1BE5CBB990F /* Pods-TestCocoa_Tests-dummy.m */; };
@@ -53,8 +51,6 @@
 		B01C0B3CC0398DB94AD31F769B246C91 /* TestCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestCocoa-umbrella.h"; sourceTree = "<group>"; };
 		B0D39D24A972EAFAC63BED1914FCF189 /* Pods-TestCocoa_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCocoa_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B32B2EF736169732DB3BE346CAA0D39E /* TestCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestCocoa-dummy.m"; sourceTree = "<group>"; };
-		C5A8D27F1F2A4F9800BE67EF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C5A8D2801F2A4F9800BE67EF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C5A8D2D01F2AD44300BE67EF /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		C5A8D2D11F2AD44300BE67EF /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 		C83488E5323EA5EAE384C197B2DA1820 /* Pods-TestCocoa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TestCocoa_Example.modulemap"; sourceTree = "<group>"; };
@@ -216,8 +212,6 @@
 		C5A8D27C1F2A4F9800BE67EF /* Basic */ = {
 			isa = PBXGroup;
 			children = (
-				C5A8D27F1F2A4F9800BE67EF /* ViewController.h */,
-				C5A8D2801F2A4F9800BE67EF /* ViewController.m */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -264,7 +258,6 @@
 			files = (
 				6515EABA43704451BABA714C4785FC0A /* Pods-TestCocoa_Example-umbrella.h in Headers */,
 				C5A8D2D21F2AD44300BE67EF /* Tools.h in Headers */,
-				C5A8D2831F2A4F9800BE67EF /* ViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +357,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5A8D2841F2A4F9800BE67EF /* ViewController.m in Sources */,
 				7502F3CCBFA61E1B2946E2560D5D1626 /* Pods-TestCocoa_Example-dummy.m in Sources */,
 				C5A8D2D31F2AD44300BE67EF /* Tools.m in Sources */,
 			);
