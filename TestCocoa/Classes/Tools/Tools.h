@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Tools : NSObject
-
+- (void)sayHello;
+- (void)callTelephone;
+- (void)buyFoods;
 @end
